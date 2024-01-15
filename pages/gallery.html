@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Пошук</h2>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">Реєстрація</a></li>
+                <li><a href="contact.html">Авторизація</a></li>
+                <li><a href="gallery.html">Пошук</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="https://fom.in.ua/echo" method="POST">
+        
+        <fieldset>
+            <legend>Who attracts you the most?</legend>
+            <label>
+              <input type="radio" name="gender" value="male">
+              <span>Male</span>
+            </label>
+              <label>
+                <input type="radio" name="gender" value="female">
+                <span>Female</span>
+              </label>
+              <label>
+                <input type="radio" name="gender" value="uncknown">
+                <span>Unknown</span>
+              </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Age</legend>
+            <label>
+                <input type="range" value="" name="age" min="18" max="100">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Number of partners</legend>
+            <label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>>2</option>
+                    <option>Army</option>
+                  </select>
+            </label>
+          </fieldset>
+
+        <fieldset>
+            <legend>Find something you both love…</legend>
+            <label>
+              <input type="checkbox" name="Type of sex" value='Classic'>
+              <span>Classic</span>
+            </label>
+            <label>
+              <input type="checkbox" name="Type of sex" value='Oral'>
+              <span>Oral</span>
+            </label>
+          <label>
+              <input type="checkbox" name="Type of sex" value='Alalal'>
+              <span>Alalal</span>
+            </label>
+           <label>
+              <input type="checkbox" name="Type of sex" value='69'>
+              <span>69</span>
+            </label>
+          <label>
+              <input disabled type="checkbox" name="Type of sex" value='Animals!'>
+              <span>Animals:)</span>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skin color</legend>
+            <label>
+              <input type="color" name="Skin color" value="">
+            </label>
+          </fieldset>
+
+        <fieldset>
+            <legend>Give your date of birth</legend>
+            <label>
+              <input type="date" name="Date" value="">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Age of partner</legend>
+            <label>
+              <input type="number" name="Age" value="">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Expected price</legend>
+            <label>
+                <input type="range" value="" name="price" min="200$" max="1100$">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your wishes</legend>
+            <textarea name="comments"  cols="50" rows="10"></textarea>
+        </fieldset>
+    
+        <button type="submit">
+          Serch
+        </button>
+        <button type="reset">
+            Reset form
+        </button>
+    </form>
+</body>
+</html>
